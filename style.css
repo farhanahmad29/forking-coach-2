@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #0f1729;
+}
+
+section.update {
+  margin: 20px;
+}
+
+section.update h4 {
+  color: #2dd4bf;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+section.update h1 {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section.update p {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 400;
+}
+section.update div.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+section.update div.card {
+  width: 340px;
+  height: 350px;
+  background-color: #1e293b;
+  border-radius: 18px;
+  margin: 5px;
+}
+
+section.update div.card .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.update div.card .image img {
+  width: 90%;
+  margin-top: 18px;
+  border-radius: 16px;
+  height: 180px;
+}
+
+section.update div.card .text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.update div.card .text h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+section.update div.card .text p {
+  font-size: 14px;
+  font-weight: 400;
+}
